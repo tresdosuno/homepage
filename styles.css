@@ -46,13 +46,16 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+    flex-direction: row;
+    display: flexbox;
 }
 
 @media screen and (max-width: 576px) {
 
     .main-info,
     .contact_info_container {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 
     .contact_info_container {
@@ -249,6 +252,7 @@ body {
 }
 
 .additional-info__languages {
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
